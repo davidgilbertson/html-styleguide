@@ -1,58 +1,16 @@
 # HTML Styleguide
-````
-<body>
-    <header>
-        <h1>Site Title or Logo with alt text</h1>
-        
-        <nav>
-            <ul>
-                <li>Menu item 1</li>
-                
-                <li>Menu item 2</li>
-                
-                <li>Menu item 3</li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section>
-        <h1>A grouping of stories</h1>
 
-        <article>
-            <header>
-                <h1>The first article</h1>
-                
-                <p>The body of an article</p>
-            </header>
-        </article>
+## Some General Guidelines
 
-        <article>
-            <header>
-                <h1>The second article</h1>
-                
-                <p>The body of an article</p>
-            </header>
-        </article>
-    </section>
+ - Each `<section>` and `<article>` start their own header scope, so the top level heading within each will be an `<h1>`.
+ 
+ - `<section>` tags are for major sections of page content. If in doubt, use a `<div>`
+ 
+ - There is no need for `<header>` tags if they only contain a single element (e.g. `<h1>`)
+ 
 
-    <section>
-        <h1>Another grouping of stories</h1>
-        
-        <article>
-            <header>
-                <h1>The third article</h1>
-                
-                <p>The body of an article</p>
-            </header>
-        </article>
+## Single Article
+ - A page with a single article should have a single `<article>` tag as the root of the article.
 
-        <article>
-            <header>
-                <h1>The fourth article</h1>
-                
-                <p>The body of an article</p>
-            </header>
-        </article>
-    </section>
-</body>
-````
+## List of Articles
+e.g. a homepage, or search results, tag list, etc
